@@ -46,7 +46,8 @@ The current project can be stored in the *project folder* as an Excel file by me
 - `F3`/`F4`(zoom in/out): Zoom in/out on the audio tracks. Double mouse click restores standard view. 
 - `Video on/off`: Enables/disables the video playblack. For a better performance of GIAnT, it is recommended to use the video only if necessary.
 - `Play`: Starts play back of audio and video file starting from the position of the green time cursor. The position of the time cursor can be changed by a mouse click beteen the audio tracks.
-- `MSAD`: Start the multichannel speaker activity detection. This requires multichannel audio recordings. 
+- `SAD`: Start the multichannel speaker activity detection. This requires multichannel audio recordings. 
+- `Key`: Choose a coding scheme for coding/annotating the audio material.
 
 ### Generate coding schemes (Keys)
 GIAnT offers the opportunity to generate customized coding schemes, which can be selected under `Keys`. All Key-files have to be stored in the folder "./Keys/" as ".txt" with the following format:
