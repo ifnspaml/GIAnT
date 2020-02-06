@@ -33,19 +33,19 @@ First of all, create a *project folder*, which contains the single audiotracks o
 - Note: Filenames cannot contain spaces. It is further recommended to name the audio tracks as follows: "name_tracknumber.wav"
 
 #### Load files
-Open a project by clicking on the `Load`-button and selecting a *project folder*. All audio tracks of the *project folder* (up to 8) will be opened in GIAnT and converted to 16kHz. If the *project folder* contains a video file, it will also converted and opened in GIAnT. If there is already an Excel file in the *project folder*, which contains a segmentation and coding, it will also be opened.
+Open a project by clicking on the `Load`-button and selecting a *project folder*. All audio files in the *project folder* (up to 8) will be opened in GIAnT, converted to 16kHz and stored in a subfolder. If the *project folder* contains a video file, it will also converted and opened in GIAnT. If there is already an Excel file in the *project folder*, which contains a segmentation and coding, it will also be opened.
 
 #### Save files
 
 The current project can be stored in the *project folder* as an Excel file by means of the `save`button. The project is also stored automatically every 5 minutes.
 
-#### toolbar and actions
+#### Toolbar and actions
 
-- `F1`(edit): Select and edit a segment per left mouse click. The selected segment is red colored. Use a defined shortcut or click in the `annotation window` to code/annotate a selected segment. Coded segments are colored green, while uncoded segments are colored yellow. Write a command for the selected segment in the `command window`. Resize the selected segment per drag and drop or with the keyboard by pressing `STRG` + `<-/->` and `ALT` + `<-/->`. Create a new segment per right mouse click. 
+- `F1`(edit): Select and edit a segment per left mouse click. The selected segment is marked in red. Use a defined shortcut or click in the `annotation window` to code/annotate the selected segment. Coded segments are marked in green, while uncoded segments are marked yellow. Write a command for the selected segment in the `command window` if needed. Resize the selected segment per drag and drop or with the keyboard by pressing `STRG` + `<-/->` and `ALT` + `<-/->`. Create a new segment per right mouse click or delete the selected segment by pressing `delete`.
 - `F2`(navigate): Scroll left and right by pressing and holding down the left mouse button.
 - `F3`/`F4`(zoom in/out): Zoom in/out on the audio tracks. Double mouse click restores standard view. 
 - `Video on/off`: Enables/disables the video playblack. For a better performance of GIAnT, it is recommended to use the video only if necessary.
-- `Play`: Starts play back of audio and video file starting from the position of the green time cursor. The position of the time cursor can be changed by a mouse click beteen the audio tracks.
+- `Play`: Starts play back of audio and video file starting from the position of the green time cursor. The position of the time cursor can be changed by a mouse click between the audio tracks.
 - `SAD`: Start the multichannel speaker activity detection. This requires multichannel audio recordings. 
 - `Key`: Choose a coding scheme for coding/annotating the audio material.
 
@@ -58,7 +58,7 @@ Example:
 
 `a` `Tab` `angry` `Tab` `emotion` `Enter`
 
-*Further notes*: All characters on the keyboard that can be reached with a single key or with `SHIFT` are permitted to define a shortcut. The symbol `^` is an exception, it can be used as placeholder, if no more shortcuts are available on the keyboard. Thus, it is possible to define any number of codes. By using the placeholders, you have to type the code-names in the `annotation window` by hand. Furthermore, it is not allowed to use `space` in the second column for a code-name. 
+*Further notes*: All characters on the keyboard that can be reached with a single key or with `SHIFT` are permitted to define a shortcut. The symbol `^` is an exception, it can be used as placeholder, if no more shortcuts are available on the keyboard. Thus, it is possible to define any number of codes. By using the placeholders, you have to type the code-names in the `annotation window` by hand. Furthermore, it is not allowed to use `spaces` in the second column for a code-name. 
 
 An Key-template can be found in the `Key`-folder. We recommend to use [Notepad++](https://notepad-plus-plus.org/downloads/) to create and edit the Key-files.
 
