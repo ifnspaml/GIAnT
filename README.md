@@ -41,7 +41,7 @@ The current project can be stored in the *project folder* as an Excel file by me
 
 #### Toolbar and actions
 
-- `F1`(edit): Select and edit a segment per left mouse click. The selected segment is marked in red. Use a defined shortcut or click in the `annotation window` to code/annotate the selected segment. Coded segments are marked in green, while uncoded segments are marked yellow. Write a command for the selected segment in the `command window` if needed. Resize the selected segment per drag and drop or with the keyboard by pressing `STRG` + `<-/->` and `ALT` + `<-/->`. Create a new segment per right mouse click or delete the selected segment by pressing `delete`.
+- `F1`(edit): Select and edit a segment per left mouse click. The selected segment is marked in red. Use a defined shortcut or click in the `annotation window` to code/annotate the selected segment. Coded segments are marked in green, while uncoded segments are marked yellow. Write a command for the selected segment in the `command window` if needed. Resize the selected segment per drag and drop or with the keyboard by pressing `STRG` + `<-/->` and `ALT` + `<-/->`. Create a new segment per right mouse click or delete the selected segment by pressing `delete`. Combine two segments in an audio track by selecting the first segment, pressing and holding `SHIFT` plus clicking on the second segment.
 - `F2`(navigate): Scroll left and right by pressing and holding down the left mouse button.
 - `F3`/`F4`(zoom in/out): Zoom in/out on the audio tracks. Double mouse click restores standard view. 
 - `Video on/off`: Enables/disables the video playblack. For a better performance of GIAnT, it is recommended to use the video only if necessary.
