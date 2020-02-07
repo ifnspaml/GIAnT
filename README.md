@@ -1,7 +1,7 @@
 # GIAnT - A Group Interaction Annotation Tool
 
 ## Introduction
-This repository contains the implementation of the GIAnT tool, which enables an accurate and fast annotation/coding of group interactions supported by an automatic multichannel speaker activity detection (MSAD). In the case that all participants of the group interaction have used a headset or lapel microphone during the audio recordings, the GUI displays up to 8 audio tracks in parallel and segments the speaker turns. Every speaker turn can be adapted and annotated/coded by hand with a user-specific coding scheme.
+This repository contains the implementation of the GIAnT tool for Windows, which enables an accurate and fast annotation/coding of group interactions supported by an automatic multichannel speaker activity detection (MSAD). In the case that all participants of the group interaction have used a headset or lapel microphone during the audio recordings, the GUI displays up to 8 audio tracks in parallel and segments the speaker turns. Every speaker turn can be adapted and annotated/coded by hand with a user-specific coding scheme.
 
 ## Prerequisites
 ### Using GIAnT (compiled)
@@ -16,12 +16,11 @@ This repository contains the implementation of the GIAnT tool, which enables an 
 ### Installation
 
 - Install Matlab (runtime)
-- Compile ffmpeg, ffplay and ffprobe and put the executables to the folder path "./bin/ffmpeg/".
+- Compile ffmpeg, ffplay and ffprobe and paste the executables in the path "./bin/ffmpeg/".
 
 ### Compiling the Matlab source code (optional)
-```
-matlab ... .m
-```
+It is recommended to use the [Matlab Compiler](https://de.mathworks.com/products/compiler.html) to create a standalone application of the source code. The *main file* is GIAnT.m and the *required files* are: calc_SAD.m, get_turns.m, setfigptr.m, config.m and HannWindow.mat.
+
 ## Short Manual
 
 ### Starting a project
@@ -58,7 +57,7 @@ Example:
 
 `a` `Tab` `angry` `Tab` `emotion` `Enter`
 
-*Further notes*: All characters on the keyboard that can be reached with a single key or with `SHIFT` are permitted to define a shortcut. The symbol `^` is an exception, it can be used as placeholder, if no more shortcuts are available on the keyboard. Thus, it is possible to define any number of codes. By using the placeholders, you have to type the code-names in the `annotation window` by hand. Furthermore, it is not allowed to use `spaces` in the second column for a code-name. 
+*Further notes*: All characters on the keyboard that can be reached with a single key or with `SHIFT` are permitted to define a shortcut. The symbol `^` is an exception, it can be used as placeholder, if no more shortcuts are available on the keyboard. Thus, it is possible to define any number of codes. By using the placeholders, you have to type the code-names in the `annotation window` by hand. Furthermore, it is not allowed to use `spaces` in the second column for the name of a code. 
 
 An Key-template can be found in the `Key`-folder. We recommend to use [Notepad++](https://notepad-plus-plus.org/downloads/) to create and edit the Key-files.
 
