@@ -1,2 +1,0 @@
-a	angry	emotion
-Q	question	Conversation
