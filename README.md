@@ -6,11 +6,11 @@ This repository contains the implementation of the GIAnT tool for Windows, which
 ## Prerequisites
 ### Using GIAnT (compiled)
 - [Matlab runtime 2015b](https://de.mathworks.com/products/compiler/matlab-runtime.html)
-- [FFMPEG](https://www.ffmpeg.org/download.html). You may want to download the executable file ffmpeg.exe if you are not familiar with compiling source code. 
+- [FFMPEG v2.6 or higher](https://www.ffmpeg.org/download.html). You may want to download the executable file ffmpeg.exe if you are not familiar with compiling source code. 
 
 ### For editing and compiling the source code (optional)
 - [Matlab 2015b](https://de.mathworks.com/) or higher
-- [FFMPEG](https://www.ffmpeg.org/download.html)
+- [FFMPEG v2.6 or higher](https://www.ffmpeg.org/download.html)
 
 ## Getting Started
 ### Installation
