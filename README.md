@@ -6,7 +6,7 @@ This repository contains the implementation of the GIAnT tool for Windows, which
 ## Prerequisites
 ### Using GIAnT (compiled)
 - [Matlab runtime 2015b](https://de.mathworks.com/products/compiler/matlab-runtime.html)
-- [FFMPEG](https://www.ffmpeg.org/download.html) (ffmpeg, ffplay and ffprobe). You may want to download the executable files if you are not familiar with compiling source code. 
+- [FFMPEG](https://www.ffmpeg.org/download.html). You may want to download the executable file ffmpeg.exe if you are not familiar with compiling source code. 
 
 ### For editing and compiling the source code (optional)
 - [Matlab 2015b](https://de.mathworks.com/) or higher
@@ -16,7 +16,7 @@ This repository contains the implementation of the GIAnT tool for Windows, which
 ### Installation
 
 - Install Matlab (runtime)
-- Compile ffmpeg, ffplay and ffprobe and paste the executables in the path "./bin/ffmpeg/".
+- Compile ffmpeg and paste the executable in the path "./bin/ffmpeg/".
 
 ### Compiling the Matlab source code (optional)
 It is recommended to use the [Matlab Compiler](https://de.mathworks.com/products/compiler.html) to create a standalone application of the source code. The *main file* is GIAnT.m and the *required files* are: calc_SAD.m, get_turns.m, setfigptr.m, config.m and HannWindow.mat.
