@@ -19,7 +19,7 @@ This repository contains the implementation of the GIAnT tool for Windows, which
 - Compile ffmpeg and paste the executable in the path "./bin/ffmpeg/".
 
 ### Compiling the Matlab source code (optional)
-It is recommended to use the [Matlab Compiler](https://de.mathworks.com/products/compiler.html) to create a standalone application of the source code. The *main file* is GIAnT.m and the *required files* are: calc_SAD.m, get_turns.m, setfigptr.m, config.m and HannWindow.mat.
+It is recommended to use the [Matlab Compiler](https://de.mathworks.com/products/compiler.html) to create a standalone application of the source code. The *main file* is GIAnT.m and the *required files* are: calc_SAD.m, get_turns.m, setfigptr.m, config.m and HannWindow.mat. Maintain the folder structure of the repository when using GIAnT.
 
 ## Short Manual
 
